@@ -1,0 +1,38 @@
+
+                     STUDENT GRADE SUMMARY 
+                     ----------------------
+
+
+ENGLISH CLASS 
+
+STUDENT                               FINAL       FINAL        LETTER
+NAME                                  EXAM        AVERAGE      GRADE
+----------------------------------------------------------------------
+Schmuckatelli, Joe                    90          84.33          B          
+Lewinsky, James Monica                78          70.00          C          
+
+HISTORY CLASS 
+
+STUDENT                               FINAL       FINAL        LETTER
+NAME                                  EXAM        AVERAGE      GRADE
+----------------------------------------------------------------------
+Dipwart, Marvin                       88          82.75          B          
+Kirk, James T.                        88          74.00          C          
+
+MATHS CLASS 
+
+STUDENT                               FINAL       FINAL        LETTER
+NAME                                  EXAM        AVERAGE      GRADE
+----------------------------------------------------------------------
+Bunny, Bugs                           93          92.38          A          
+Crack Corn, Jimmy                     68          56.88          F          
+
+OVERALL GRADE DISTRIBUTION 
+
+A:
+B:
+C:
+D:
+F:
+
+
