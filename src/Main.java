@@ -318,8 +318,8 @@ public class Main {
                 A:
                 B:
                 C:
-                D:\s
-                F:\s
+                D:
+                F:
                 """;
     }
 
