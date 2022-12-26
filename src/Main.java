@@ -4,12 +4,9 @@ import java.util.List;
 
 public class Main {
 
-    static {
-        System.out.println("Let's code!");
-    }
-
 
     public static void main(String[] args) {
+
         readFromFile();
 
 
@@ -132,7 +129,7 @@ public class Main {
         writeToFile(stringList);
     }
 
-    //function to write record to output.txt file
+    //function to write record to output.txt file called inside readFromFile()
     private static void writeToFile(List<Object> sStringList) {
 
         PrintWriter printWriter;
@@ -281,7 +278,7 @@ public class Main {
     }
 
 
-    // function to arrange record in order
+    // function to arrange records in fashion order called inside writeToFile()
     public static String formatRecord(String sName, int sExam,
                                       String sAverage, String sGrade) {
 
@@ -289,7 +286,7 @@ public class Main {
                 sGrade);
     }
 
-    // function to return grade
+    // function to return grade called inside writeToFile()
     public static String grade(String sS) {
 
         double value = Double.parseDouble(sS);
@@ -310,6 +307,7 @@ public class Main {
 
     }
 
+   // called inside writeToFile()
     public static String gradeDistribution() {
 
         return """
