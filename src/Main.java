@@ -135,7 +135,7 @@ public class Main {
         PrintWriter printWriter;
 
         String className = "", lastClassName = "";
-        String name, average;
+        String studentName, average;
         int finalExam;
         String title;
 
@@ -161,7 +161,7 @@ public class Main {
                 if (sO instanceof EnglishStudents sEnglishStudents) {
 
                     // Student's name
-                    name =
+                    studentName =
                             sEnglishStudents.getStudentFirstName() + " " +
                                     sEnglishStudents.getStudentLastName();
 
@@ -186,7 +186,7 @@ public class Main {
                         printWriter.write(className);
                     }
 
-                    printWriter.println(formatRecord(name, finalExam, average
+                    printWriter.println(formatRecord(studentName, finalExam, average
                             , grade(average)));
 
                 }
@@ -199,7 +199,7 @@ public class Main {
 
                 if (sO instanceof HistoryStudents sHistoryStudents) {
 
-                    name =
+                    studentName =
                             sHistoryStudents.getStudentFirstName() + " " +
                                     sHistoryStudents.getStudentLastName();
 
@@ -222,7 +222,7 @@ public class Main {
                         printWriter.write(className);
                     }
 
-                    printWriter.println(formatRecord(name, finalExam, average
+                    printWriter.println(formatRecord(studentName, finalExam, average
                             , grade(average)));
 
 
@@ -234,7 +234,7 @@ public class Main {
             for (Object sO : sStringList) {
                 if (sO instanceof MathsStudents sMathsStudents) {
 
-                    name =
+                    studentName =
                             sMathsStudents.getStudentFirstName() + " " +
                                     sMathsStudents.getStudentLastName();
 
@@ -257,7 +257,7 @@ public class Main {
                     } else {
                         printWriter.write(className);
                     }
-                    printWriter.println(formatRecord(name, finalExam, average
+                    printWriter.println(formatRecord(studentName, finalExam, average
                             , grade(average)));
 
 
@@ -323,7 +323,7 @@ public class Main {
                 """;
     }
 
-
+    Reading student's record from an input text file, calculate and write out the average according to the student's classes to an output file
 }
 //08123370118
 
