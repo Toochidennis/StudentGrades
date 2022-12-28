@@ -27,7 +27,7 @@ public class Main {
         int historyAttendance, historyProject, historyMidTerm, historyFinalExam;
 
         // Array to store all student's info
-        List<Object> stringList = new ArrayList<>();
+        List<Object> objectList = new ArrayList<>();
 
         try {
 
@@ -36,7 +36,7 @@ public class Main {
                     new FileReader("C:\\Users\\tooch\\IdeaProjects\\StudentGrades" +
                             "\\src\\file\\input.txt"));
 
-            // iterate through the input file and read them
+            // iterate through the input file and return them
             while ((line = bufferedReader.readLine()) != null) {
 
                 // store each line into this array, splitting each word for
@@ -72,7 +72,7 @@ public class Main {
 
 
                     // storing english record to array
-                    stringList.add(new EnglishStudents(firstName, lastName,
+                    objectList.add(new EnglishStudents(firstName, lastName,
                             subject, englishTermPaper, englishMidTerm,
                             englishFinalExam));
 
@@ -89,7 +89,7 @@ public class Main {
                         firstName = "%s %s".formatted(firstName, middleName);
                     }
 
-                    stringList.add(new HistoryStudents(firstName, lastName,
+                    objectList.add(new HistoryStudents(firstName, lastName,
                             subject, historyAttendance, historyProject,
                             historyMidTerm, historyFinalExam));
 
@@ -111,7 +111,7 @@ public class Main {
                         firstName = "%s %s".formatted(firstName, middleName);
                     }
 
-                    stringList.add(new MathsStudents(firstName, lastName,
+                    objectList.add(new MathsStudents(firstName, lastName,
                             subject, quiz1, quiz2, quiz3, quiz4, quiz5, test1
                             , test2, finalExam));
                 }
@@ -126,7 +126,7 @@ public class Main {
 
 
         // as the name implies
-        writeToFile(stringList);
+        writeToFile(objectList);
     }
 
     //function to write record to output.txt file called inside readFromFile()
