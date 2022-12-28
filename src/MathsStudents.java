@@ -1,6 +1,7 @@
 import java.text.DecimalFormat;
 
-public class MathsStudents extends StudentInformation {
+public class MathsStudents
+        extends StudentInformation {
 
     private int mQuiz1;
     private int mQuiz2;
@@ -33,7 +34,9 @@ public class MathsStudents extends StudentInformation {
                          String sStudentSubject, int sQuiz1, int sQuiz2,
                          int sQuiz3, int sQuiz4, int sQuiz5, int sTest1,
                          int sTest2, int sFinalExam) {
-        super(sStudentFirstName, sStudentLastName, sStudentSubject);
+        super(sStudentFirstName,
+                sStudentLastName,
+                sStudentSubject);
         mQuiz1 = sQuiz1;
         mQuiz2 = sQuiz2;
         mQuiz3 = sQuiz3;
@@ -109,14 +112,14 @@ public class MathsStudents extends StudentInformation {
     }
 
 
-    // TODO: method/function to calculate student's average
+    // method/function to calculate student's average
     public String calculateAverage() {
 
-        double average =
-                getQuiz1() + getQuiz2() + getQuiz3() + getQuiz4() + getQuiz5()
-                        + getTest1() + getTest2() + getFinalExam();
+        double average = getQuiz1() + getQuiz2() + getQuiz3() + getQuiz4()
+                + getQuiz5() + getTest1() + getTest2() + getFinalExam();
 
         average = average / 8;
+
         //converting average to 2 decimal place
         DecimalFormat format = new DecimalFormat("#.00");
 

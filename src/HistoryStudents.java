@@ -62,7 +62,7 @@ public class HistoryStudents extends StudentInformation {
     }
 
 
-    // TODO: method/function to calculate student's average
+    // method/function to calculate student's average
     public String calculateAverage() {
 
         double average =

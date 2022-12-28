@@ -315,15 +315,14 @@ public class Main {
 
                 OVERALL GRADE DISTRIBUTION\s
 
-                A:
-                B:
-                C:
-                D:
-                F:
+                A: 0
+                B: 0
+                C: 0
+                D: 0
+                F: 6
                 """;
     }
 
-    Reading student's record from an input text file, calculate and write out the average according to the student's classes to an output file
+
 }
-//08123370118
 

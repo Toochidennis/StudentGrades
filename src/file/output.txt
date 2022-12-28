@@ -8,69 +8,31 @@ ENGLISH CLASS
 STUDENT                               FINAL       FINAL        LETTER
 NAME                                  EXAM        AVERAGE      GRADE
 ----------------------------------------------------------------------
-Schmuckatelli, Joe                    90          84.33          B          
-Lewinsky, James Monica                78          70.00          C          
+Jeff, Mark                            38          31.67          F          
+Antonia, Wale                         40          31.67          F          
 
 HISTORY CLASS 
 
 STUDENT                               FINAL       FINAL        LETTER
 NAME                                  EXAM        AVERAGE      GRADE
 ----------------------------------------------------------------------
-Dipwart, Marvin                       88          82.75          B          
-Kirk, James T.                        88          74.00          C          
+Alex, Lee                             30          24.75          F          
+Kate, MaryAnn                         29          24.75          F          
 
 MATHS CLASS 
 
 STUDENT                               FINAL       FINAL        LETTER
 NAME                                  EXAM        AVERAGE      GRADE
 ----------------------------------------------------------------------
-Bunny, Bugs                           93          92.38          A          
-Crack Corn, Jimmy                     68          56.88          F          
-
-OVERALL GRADE DISTRIBUTION 
-
-A:
-B:
-C:
-D:
-F:
-
-
-
-                     STUDENT GRADE SUMMARY 
-                     ----------------------
-
-
-ENGLISH CLASS 
-
-STUDENT                               FINAL       FINAL        LETTER
-NAME                                  EXAM        AVERAGE      GRADE
-----------------------------------------------------------------------
-Schmuckatelli, Joe                    90          84.33          B          
-Lewinsky, James Monica                78          70.00          C          
-
-HISTORY CLASS 
-
-STUDENT                               FINAL       FINAL        LETTER
-NAME                                  EXAM        AVERAGE      GRADE
-----------------------------------------------------------------------
-Dipwart, Marvin                       88          82.75          B          
-Kirk, James T.                        88          74.00          C          
-
-MATHS CLASS 
-
-STUDENT                               FINAL       FINAL        LETTER
-NAME                                  EXAM        AVERAGE      GRADE
-----------------------------------------------------------------------
-Bunny, Bugs                           93          92.38          A          
-Crack Corn, Jimmy                     68          56.88          F          
+John, Wick                            30          18.00          F          
+Emmanuel, Martin                      35          18.62          F          
 
 
 OVERALL GRADE DISTRIBUTION 
 
-A:
-B:
-C:
-D: 
-F: 
+A: 0
+B: 0
+C: 0
+D: 0
+F: 6
 
